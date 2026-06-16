@@ -1,0 +1,133 @@
+/* body{
+    font-family: arial, sans-serif;
+    background-color: hsla(200, 6%, 80%, 0.261);
+}
+
+form{
+    background-color: aqua;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid rgb(151, 202, 232);
+    border-radius: 10px;
+}
+
+#age_box{
+    margin-top: 20px;
+    width: 80%;
+    border: 1px solid rgb(197, 8, 197);
+    border-radius: 10px;
+    padding: 9px;
+}
+
+button{
+    background-color: rgb(252, 0, 0);
+    color: white;
+    margin-top: 15px;
+    padding: 5px 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(0, 172, 252, 0.775);
+}
+
+#result{
+    font-weight: bold;
+} */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsla(200, 6%, 80%, 0.261);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+form{
+    background-color: aqua;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 2px solid rgb(151, 202, 232);
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 1rem;
+}
+
+#age_box{
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(197, 8, 197);
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+button{
+    background-color: rgb(252, 0, 0);
+    color: white;
+    margin-top: 15px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 60%;
+}
+
+button:hover{
+    background-color: rgba(0, 172, 252, 0.775);
+}
+
+#result{
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    word-wrap: break-word;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Mobile devices */
+@media (max-width: 480px){
+    form{
+        padding: 15px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    button{
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+
+    #result{
+        font-size: 1rem;
+    }
+}
